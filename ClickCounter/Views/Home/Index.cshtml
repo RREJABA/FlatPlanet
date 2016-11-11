@@ -1,0 +1,8 @@
+﻿@model object
+
+<h1>@Model.ToString()</h1>
+
+@using (Html.BeginForm("UpdateClickCount", "Home"))
+{
+    <input name="submit" type="submit" />
+}
